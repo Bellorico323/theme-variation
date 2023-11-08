@@ -1,0 +1,87 @@
+@import 'global.css';
+
+.container-header{
+  background-image: url("./assets/white-and-blue-background.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/4;
+}
+
+.container-header h1{
+  font-size: 6rem;
+  font-weight: bold;
+  color:#7497CC;
+  position: relative;
+}
+
+.style{
+  position: absolute;
+  background-color: #7497CC;
+  padding: 1.25rem 1.875rem;
+  border-radius: 10px 0 0 10px;
+  right: 0rem;
+  top: 3.75rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 120px 1fr 120px;
+}
+
+.first-text{
+  grid-column: 2/3;
+  margin-top: 3.75rem;
+  line-height: 1.4;
+}
+
+.divider{
+  height: 7px;
+  grid-column: 2/3;
+  background-color: #7497CC;
+  margin-top: 40px;
+}
+
+.second-text{
+  grid-column: 2/3;
+  display: flex;
+  margin-top: 100px;
+  gap: 60px;
+  flex-direction: column;
+  margin-bottom: 8.125rem;
+}
+
+
+.second-text-content{
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.4;
+}
+
+.second-text-content p {
+  float: left;
+  max-width: 40ch;
+}
+
+.second-text-image {
+  width: 430px;
+  height: 430px;
+  float: right;
+}
+
+.second-text-image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+footer{
+  background-image: url("./assets/white-and-blue-background.jpg");
+  height: 50vh;
+  grid-column: 1/4;
+  background-size: cover;
+  background-position: bottom center;
+}
