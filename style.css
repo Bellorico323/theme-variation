@@ -30,7 +30,7 @@
 
 .content {
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+  grid-template-columns: 7.5rem 1fr 7.5rem;
 }
 
 .first-text{
@@ -43,16 +43,30 @@
   height: 7px;
   grid-column: 2/3;
   background-color: #7497CC;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .second-text{
   grid-column: 2/3;
   display: flex;
-  margin-top: 100px;
-  gap: 60px;
+  margin-top: 6.25rem;
+  gap: 3.75rem;
   flex-direction: column;
   margin-bottom: 8.125rem;
+}
+
+.second-text h2{
+  position: relative;
+  margin-left: 1.375rem;
+}
+
+.second-text h2::before{
+  content: "";
+  background: #7497CC;
+  width:0.625rem;
+  height: 2.5rem;
+  position: absolute;
+  left: -1.5rem;
 }
 
 
@@ -64,18 +78,19 @@
 
 .second-text-content p {
   float: left;
-  max-width: 40ch;
+  width: 37.5rem;
 }
 
 .second-text-image {
-  width: 430px;
-  height: 430px;
+  width: 26.875rem;
+  height: 26.875rem;
   float: right;
 }
 
-.second-text-image img {
+.image{
   object-fit: cover;
   width: 100%;
+  height: 100%;
 }
 
 footer{
@@ -85,3 +100,15 @@ footer{
   background-size: cover;
   background-position: bottom center;
 }
+
+
+@media(max-width:1000px){
+  html {
+    font-size: 60%;
+  }
+
+  footer, .container-header {
+    height: 35vh;
+  }
+}
+
