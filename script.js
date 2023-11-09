@@ -1,5 +1,7 @@
 //Images
 const containerHeader = document.getElementById("header");
+const h1Header = containerHeader.querySelector('h1')
+
 const secondTextImage = document.querySelector('[data-image="image"]');
 const bodyDocument = document.body;
 const fistTextParagraphs = document.querySelector('[data-text="first-text"]')
