@@ -49,17 +49,27 @@
 
 .second-text h2{
   position: relative;
-  margin-left: 1.375rem;
+  margin-left: 1rem;
 }
 
-.second-text h2::before{
+.title-container{
+  display: flex;
+}
+
+.title-container .detail{
+
+  width:0.625rem;
+  height: 2.5rem;
+  background: #7497CC;
+}
+/* .second-text h2::before{
   content: "";
   background: #7497CC;
   width:0.625rem;
   height: 2.5rem;
   position: absolute;
   left: -1.5rem;
-}
+} */
 
 
 .second-text-content{
@@ -90,7 +100,7 @@ footer{
   height: 50vh;
   grid-column: 1/4;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center right;
 }
 
 
