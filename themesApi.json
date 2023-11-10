@@ -1,8 +1,66 @@
 [
   {
+    "name": "orange",
+    "color": "#FC942A",
     "image-bg": "./assets/black-and-orange-background.jpg",
-    "title": "'color:#2B2B2B'",
+    "title-bg": "'color:#2B2B2B'",
+    "detail-bg": "'color:#FF9D39'",
+    "detail-bg-text": "'color:#874707'",
     "text": "'color:#858585'",
     "background": "'background:#101010'"
-  } 
-]           
+  } ,
+  {
+    "name": "purple",
+    "color": "#4C4BB3",
+    "image-bg": "./assets/black-and-purple-background.jpg",
+    "title-bg": "'color:#7E41FF'",
+    "detail-bg": "'color:#5525BA'",
+    "detail-bg-text": "'color:#200951'",
+    "text": "'color:#858585'",
+    "background": "'background:#101010'"
+  },
+
+  {
+    "name": "red",
+    "color": "#2F0807",
+    "image-bg": "./assets/black-and-red-background.jpg",
+    "title-bg": "'color: rgba(200, 20, 20, 85%)'",
+    "detail-bg": "'color: rgba(200, 20, 20, 85%)'",
+    "detail-bg-text": "'color:#280000'",
+    "text": "'color:#858585'",
+    "background": "'background:#101010'"
+  },
+
+  {
+  "name": "lightBlue",
+  "color": "#94C3FA ",
+  "image-bg": "./assets/white-and-blue-background.jpg",
+  "title-bg": "'color: #7497CC'",
+  "detail-bg": "'color:#7497CC'",
+  "detail-bg-text": "'color:#13315E'",
+  "text": "'color:#101010'",
+  "background": "'background:#EAEAEA'"
+  },
+
+  {
+    "name": "pink",
+    "color": "#E15576  ",
+    "image-bg": "./assets/white-and-pink-background.jpg",
+    "title-bg": "'color: #2F2D2D'",
+    "detail-bg": "'color:#E0406A'", 
+    "detail-bg-text": "'color:#63001A'",
+    "text": "'color:#101010'",
+    "background": "'background:#EAEAEA'"
+    },
+
+    {
+      "name": "darkBlue",
+      "color": "#96B9D7 ",
+      "image-bg": "./assets/black-and-blue-background.jpg",
+      "title-bg": "'color: rgba(38, 105, 165, 80%)'",
+      "detail-bg": "'color: #205786'",
+      "detail-bg-text": "'color:#00172B'",
+      "text": "'color:#858585'",
+      "background": "'background:#101010'"
+    }
+]                           

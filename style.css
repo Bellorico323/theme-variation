@@ -1,4 +1,5 @@
-@import 'global.css';
+@import './css/global.css';
+@import './css/menu.css';
 
 .container-header{
   background-image: url("./assets/white-and-blue-background.jpg");
@@ -17,15 +18,6 @@
   font-weight: bold;
   color:#7497CC;  
   position: relative;
-}
-
-.style{
-  position: absolute;
-  background-color: #7497CC;
-  padding: 1.25rem 1.875rem;
-  border-radius: 10px 0 0 10px;
-  right: 0rem;
-  top: 3.75rem;
 }
 
 .content {
