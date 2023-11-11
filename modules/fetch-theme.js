@@ -11,6 +11,8 @@ const divider = document.querySelector('.divider')
 const containerFooter = document.getElementById("footer");
 
 const titleDetail = document.querySelector('.title-container .detail')
+const style = document.querySelector('.style')
+const themeMenu = document.querySelector('.theme-menu')
 
 //container.style.backgroundImage = 'url("./assets/black-and-blue-background.jpg")'
 // secondTextImage.setAttribute('src', './assets/black-and-blue -background.jpg');
@@ -35,7 +37,10 @@ async function serchTheme(){
           secondText.style.color = theme.text; 
           divider.style.background = theme.color;
           titleDetail.style.background = theme.color;
-          containerFooter.style.backgroundImage = `url(${theme.imageBg})`
+          containerFooter.style.backgroundImage = `url(${theme.imageBg})`;
+          style.style.background = theme.detailBg;
+          style.style.color = theme.detailBgText;
+          themeMenu.style.background = theme.detailBg;
         }
         
         li.addEventListener('click', changeTheme)

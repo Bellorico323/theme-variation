@@ -4,8 +4,8 @@
     "color": "#FC942A",
     "imageBg": "./assets/black-and-orange-background.jpg",
     "titleBg": "#2B2B2B",
-    "detailBg": "'#FF9D39'",
-    "detail-bg-text": "'color:#874707'",
+    "detailBg": "#FF9D39",
+    "detailBgText": "#874707",
     "text": "#858585",
     "background": "#101010",
     "thumb": "./assets/orange-thumb.jpg"
@@ -16,7 +16,7 @@
     "imageBg": "./assets/black-and-purple-background.jpg",
     "titleBg": "#7E41FF",
     "detailBg": "#5525BA",
-    "detailBg-text": "#200951",
+    "detailBgText": "#200951",
     "text": "#858585",
     "background": "#101010",
     "thumb": "./assets/purple-thumb.jpg"
@@ -28,7 +28,7 @@
     "imageBg": "./assets/black-and-red-background.jpg",
     "titleBg": " rgba(200, 20, 20, 85%)",
     "detailBg": " rgba(200, 20, 20, 85%)",
-    "detailBg-text": "#280000",
+    "detailBgText": "#280000",
     "text": "#858585",
     "background": "#101010",
     "thumb": "./assets/red-thumb.jpg"
@@ -40,7 +40,7 @@
   "imageBg": "./assets/white-and-blue-background.jpg",
   "titleBg": " #7497CC",
   "detailBg": "#7497CC",
-  "detailBg-text": "#13315E",
+  "detailBgText": "#13315E",
   "text": "#101010",
   "background": "#EAEAEA",
   "thumb": "./assets/lightblue-thumb.jpg"
@@ -52,7 +52,7 @@
     "imageBg": "./assets/white-and-pink-background.jpg",
     "titleBg": " #2F2D2D",
     "detailBg": "#E0406A", 
-    "detailBg-text": "#63001A",
+    "detailBgText": "#63001A",
     "text": "#101010",
     "background": "#EAEAEA",
     "thumb": "./assets/pink-thumb.jpg"
@@ -64,7 +64,7 @@
       "imageBg": "./assets/black-and-blue-background.jpg",
       "titleBg": " rgba(38, 105, 165, 80%)",
       "detailBg": " #205786",
-      "detailBg-text": "#00172B",
+      "detailBgText": "#00172B",
       "text": "#858585",
       "background": "#101010",
       "thumb": "./assets/blue-thumb.jpg"

@@ -1,4 +1,4 @@
-.container-header h1{
+.container-header {
   position: relative;
 }
 
@@ -15,17 +15,17 @@
 }
 
 .style.active{
-  right: 300px;
+  right: 18.75rem;
   position: fixed;
 }
 
 .theme-menu{
-  height: 400px;
+  height: 25rem;
   background:#7497CC;
   position: fixed;
-  right: -300px;
+  right: -18.75rem;
   top: 3.75rem;
-  width: 300px;
+  width: 18.75rem;
   z-index: 2000;
   transition: right 0.4s ease ;
   border-radius: 0 0 0 10px ;
@@ -44,8 +44,8 @@
 
 .theme-list {
   display: grid;
-  grid-template-columns: 80px 80px;
-  gap: 40px;
+  grid-template-columns: 5rem 5rem;
+  gap:2.5rem;
   height: 100%;
 }
 
@@ -60,4 +60,5 @@
   border-radius: 20px;
   box-shadow: 0 2px 2px rgba(0,0,0,.5);
 }
+
 
